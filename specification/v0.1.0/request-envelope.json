@@ -22,7 +22,7 @@
   "$defs": {
     "AcsParams": {
       "type": "object",
-      "required": ["acs_version", "request_id", "timestamp", "metadata", "payload"],
+      "required": ["acs_version", "request_id", "timestamp", "metadata", "payload", "signature"],
       "properties": {
         "acs_version": {
           "type": "string",
